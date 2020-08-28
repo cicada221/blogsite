@@ -1,8 +1,8 @@
 
 from django.utils import timezone
-from .models import Post,Comment
+from .models import Post
 from django.shortcuts import render, get_object_or_404,redirect
-from .forms import PostForm,CommentForm
+from .forms import PostForm
 #from django.contrib.auth.decorators import login_required
 # Create your views here.
 
